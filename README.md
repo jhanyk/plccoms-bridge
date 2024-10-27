@@ -22,19 +22,19 @@ sudo pip install docker-compose
 
 ### Clone the git repository:
 ```
-git clone https://github.com/kub/ha-plc.git
+git clone https://github.com/jhanyk/plccoms-bridge.git
 ```
 
 ## Running / stopping HA
 
 ### Run the HA
 ```
-docker-compose -f ha-plc/docker-compose.yaml up -d
+docker-compose -f plccoms-bridge/docker-compose.yaml up -d
 ```
 
 ### Stop the HA
 ```
-docker-compose -f ha-plc/docker-compose.yaml down
+docker-compose -f plccoms-bridge/docker-compose.yaml down
 ```
 
 ## Accessing and configuring HA
